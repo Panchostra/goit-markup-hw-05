@@ -4,6 +4,45 @@
     {
       "icon": {
         "paths": [
+          "M1024 85.333l-1024 480 327.251 101.001 504.749-394.334-383.927 431.629 0.311 0.098-0.384-0.098v235.038l183.522-178.419 232.482 71.753 159.996-746.667z"
+        ],
+        "attrs": [
+          {
+            "fill": "rgb(255, 255, 255)"
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Frame 3 (1)"
+        ],
+        "colorPermutations": {
+          "255255255177902291": [
+            {
+              "f": 1
+            }
+          ]
+        }
+      },
+      "attrs": [
+        {
+          "fill": "rgb(255, 255, 255)"
+        }
+      ],
+      "properties": {
+        "order": 37,
+        "id": 3,
+        "name": "send",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
           "M640 256h-512c-35.2 0-63.68 28.8-63.68 64l-0.32 384c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-384c0-35.2-28.8-64-64-64zM627.2 392l-226.24 141.44c-10.24 6.4-23.68 6.4-33.92 0l-226.24-141.44c-8-5.12-12.8-13.76-12.8-23.040 0-21.44 23.36-34.24 41.6-23.040l214.4 134.080 214.4-134.080c18.24-11.2 41.6 1.6 41.6 23.040 0 9.28-4.8 17.92-12.8 23.040z"
         ],
         "attrs": [
@@ -15,7 +54,12 @@
         "grid": 0,
         "tags": [
           "email-black-18dp 1"
-        ]
+        ],
+        "colorPermutations": {
+          "255255255177902291": [
+            {}
+          ]
+        }
       },
       "attrs": [
         {}
@@ -28,7 +72,7 @@
       },
       "setIdx": 0,
       "setId": 4,
-      "iconIdx": 0
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -44,20 +88,25 @@
         "grid": 0,
         "tags": [
           "phone-black-18dp 1"
-        ]
+        ],
+        "colorPermutations": {
+          "255255255177902291": [
+            {}
+          ]
+        }
       },
       "attrs": [
         {}
       ],
       "properties": {
-        "order": 17,
+        "order": 38,
         "id": 1,
         "name": "phone",
         "prevSize": 32
       },
       "setIdx": 0,
       "setId": 4,
-      "iconIdx": 1
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -74,7 +123,14 @@
         "grid": 0,
         "tags": [
           "person-black-18dp 1"
-        ]
+        ],
+        "colorPermutations": {
+          "255255255177902291": [
+            {
+              "f": 0
+            }
+          ]
+        }
       },
       "attrs": [
         {
@@ -89,7 +145,7 @@
       },
       "setIdx": 0,
       "setId": 4,
-      "iconIdx": 2
+      "iconIdx": 4
     },
     {
       "icon": {
@@ -120,7 +176,7 @@
         "name": "finger",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 0
     },
@@ -179,7 +235,7 @@
         "name": "linkedin",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 1
     },
@@ -218,7 +274,7 @@
         "name": "facebook",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 2
     },
@@ -257,7 +313,7 @@
         "name": "twitter",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 3
     },
@@ -316,7 +372,7 @@
         "name": "instagram",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 4
     },
@@ -555,7 +611,7 @@
         "name": "astronaut",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 5
     },
@@ -634,7 +690,7 @@
         "name": "diagram",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 6
     },
@@ -703,7 +759,7 @@
         "name": "clock",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 7
     },
@@ -753,7 +809,7 @@
         "name": "antenna",
         "prevSize": 32
       },
-      "setIdx": 2,
+      "setIdx": 1,
       "setId": 2,
       "iconIdx": 8
     }

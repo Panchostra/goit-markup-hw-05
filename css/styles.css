@@ -431,6 +431,7 @@ background: #4d5ae5;
  border: 1px solid white;
  border-radius: 4px;
  width: 264px;
+ height: 40px;
 
 background-color: #2e2f42;
 
@@ -447,5 +448,46 @@ color: white;
 
   display:flex;
   flex-direction: row;
+  padding-bottom:32px;
+}
+.subscribe-button {
+  background-color: #4D5AE5;
+}
+.subscribe-form {
+  display:flex;
+  flex-direction: row;
+  gap:24px;
 
 }
+.icon-send {
+  width: 24px;
+  height:24px;
+}
+
+.subscribe-button {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+   justify-content: center;
+  gap:16px;
+  font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+text-align: center;
+border-radius: 4px;
+
+width: 165px;
+height:40px;
+color: white;
+
+
+}
+.subscribe-inner-form {
+  display:flex;
+  flex-direction: row;
+  gap:24px;
+  align-items: flex-end;
+  justify-content: center;;
+}
+
