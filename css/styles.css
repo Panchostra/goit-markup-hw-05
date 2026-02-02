@@ -416,3 +416,36 @@ background: #4d5ae5;
   background-color: #404bbf;
   border-radius: 2px;
 }
+.subscribe-label {
+  display:flex;
+  flex-direction: column;
+  gap:16px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: white;
+}
+.subscribe-input {
+ padding: 8px 16px;
+ border: 1px solid white;
+ border-radius: 4px;
+ width: 264px;
+
+background-color: #2e2f42;
+
+}
+.subscribe-input::placeholder {
+ font-family: "Roboto", sans-serif;
+font-weight: 400px;
+font-size: 12px;
+line-height: 200%;
+letter-spacing: 0.04em;
+color: white;
+}
+.footer-subscribe {
+
+  display:flex;
+  flex-direction: row;
+
+}
