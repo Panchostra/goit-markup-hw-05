@@ -83,10 +83,10 @@ p {
    background-image: linear-gradient(
   rgba(46, 47, 66, 0.7),
   rgba(46, 47, 66, 0.7)
-),
-   url(../images/people-office.jpg);
+), url(../images/people-office.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   position: relative;
 }
 
 .mail-link,
@@ -491,3 +491,34 @@ color: white;
   justify-content: center;;
 }
 
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+.order-form label {
+  display:flex;
+  flex-direction: column;
+}
+.form-header {
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-align: center;
+color:  #2e2f42;
+}
+.checkbox.label {
+  display:flex;
+  flex-direction: row;
+}
+.form-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
