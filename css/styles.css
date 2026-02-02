@@ -521,4 +521,40 @@ color:  #2e2f42;
 .form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+width: 360px;
+}
+.form-textarea {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+width: 360px;
+}
+.order-form .label{
+ position: relative;
+
+}
+.order-form .icon{
+position: absolute;
+left:16px
+}
+.order-form {
+  display:flex;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.form-button {
+ border-radius: 4px;
+padding: 16px 32px;
+margin-bottom: 16px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
 }
