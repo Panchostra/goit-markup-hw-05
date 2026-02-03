@@ -534,7 +534,8 @@ width: 360px;
 }
 .order-form .icon{
 position: absolute;
-left:16px
+left:16px;
+top:20px;
 }
 .order-form {
   display:flex;
@@ -557,4 +558,16 @@ line-height: 150%;
 letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
+}
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
