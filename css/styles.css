@@ -501,10 +501,12 @@ color: white;
   transform: translate(-50%, -50%);
   background-color: #fcfcfc;
   border-radius: 4px;
+  height: 584px;
 }
 .order-form label {
   display:flex;
   flex-direction: column;
+  gap: 4px;
 }
 .form-header {
 font-weight: 500;
@@ -513,6 +515,7 @@ line-height: 150%;
 letter-spacing: 0.02em;
 text-align: center;
 color:  #2e2f42;
+padding-top: 80px;
 }
 .checkbox.label {
   display:flex;
@@ -522,11 +525,14 @@ color:  #2e2f42;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 width: 360px;
+height: 40px;
 }
 .form-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 width: 360px;
+padding-left: 16px;
+padding-top: 8px;
 }
 .order-form .label{
  position: relative;
@@ -535,17 +541,31 @@ width: 360px;
 .order-form .icon{
 position: absolute;
 left:16px;
-top:20px;
+top: 25px;
+ 
 }
 .order-form {
+  margin-top:0;
   display:flex;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  font-family: "Roboto", sans-serif;;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color: #8e8f99;
+padding: 0 24px;
+position: absolute;
+  top: 0;                       
+  left: 50%;                   
+  transform: translateX(-50%);
 }
 .form-button {
  border-radius: 4px;
 padding: 16px 32px;
+margin-top: 24px;
 margin-bottom: 16px;
 width: 169px;
 height: 56px;
@@ -560,14 +580,42 @@ text-align: center;
 color: #fff;
 }
 .close-button {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 4px;
-  display: flex;
-  align-items: center;
+position: absolute;
+  top: 32px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  display:flex ;
   justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1)
+
+}
+.form-textarea::placeholder {
+font-family: "Roboto", sans-serif;;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color:  rgba(46, 47, 66, 0.4);
+margin-left: 10px;
+
+}
+.checkbox.label a {
+  color: #404bbf;
+  text-decoration: underline;
+
+}
+.order-form .name.label::after {
+  content: "";
+  position: absolute;
+  left: 38px;  /* Adjust this to place it right next to your icon */
+  top: 29px;   /* Adjust this to move it up/down inside the input */
+  width: 1px;  /* Thickness of the line */
+  height: 18px; /* EXACT HEIGHT control (match your reference) */
+  background-color:#2e2f42; /* Gray color by default */
+
+  pointer-events: none; /* Ensures clicks go through the line to the input */
 }
