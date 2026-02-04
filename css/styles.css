@@ -495,13 +495,21 @@ color: white;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  position: absolute; 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   background-color: #fcfcfc;
   border-radius: 4px;
-  height: 584px;
+
+   margin-top:0;
+  display:flex;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;;
+font-weight: 400;
+font-size: 12px;
+line-height: 117%;
+letter-spacing: 0.04em;
+color: #8e8f99;
+padding: 0 24px;
 }
 .order-form label {
   display:flex;
@@ -520,12 +528,15 @@ padding-top: 80px;
 .checkbox.label {
   display:flex;
   flex-direction: row;
+  
 }
 .form-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 width: 360px;
 height: 40px;
+
+  padding-left: 48px;
 }
 .form-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -533,6 +544,7 @@ height: 40px;
 width: 360px;
 padding-left: 16px;
 padding-top: 8px;
+ resize: none;
 }
 .order-form .label{
  position: relative;
@@ -544,24 +556,7 @@ left:16px;
 top: 25px;
  
 }
-.order-form {
-  margin-top:0;
-  display:flex;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-  font-family: "Roboto", sans-serif;;
-font-weight: 400;
-font-size: 12px;
-line-height: 117%;
-letter-spacing: 0.04em;
-color: #8e8f99;
-padding: 0 24px;
-position: absolute;
-  top: 0;                       
-  left: 50%;                   
-  transform: translateX(-50%);
-}
+
 .form-button {
  border-radius: 4px;
 padding: 16px 32px;
@@ -608,14 +603,59 @@ margin-left: 10px;
   text-decoration: underline;
 
 }
-.order-form .name.label::after {
+   .order-form .name.label::after,
+    .order-form .email.label::after,
+     .order-form .phone.label::after
+    {
   content: "";
   position: absolute;
-  left: 38px;  /* Adjust this to place it right next to your icon */
-  top: 29px;   /* Adjust this to move it up/down inside the input */
-  width: 1px;  /* Thickness of the line */
-  height: 18px; /* EXACT HEIGHT control (match your reference) */
-  background-color:#2e2f42; /* Gray color by default */
+  left: 34px;  
+  top: 29px;  
+  width: 1.25px;  
+  height: 18px; 
+  background-color:#2e2f42; 
 
-  pointer-events: none; /* Ensures clicks go through the line to the input */
+  pointer-events: none; 
+} 
+.order-form .label:focus-within::after {
+  background-color: #4d5ae5;
+  left: 38px;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #4d5ae5;     
+  border-width: 1px;
+  outline: none;
+}
+
+.form-input:focus + .icon, 
+.form-input:active + .icon {
+  fill: #4d5ae5;
+}
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 408px;
+  background: #fff;
+  border-radius: 4px;
+}
+.modal-checkbox {
+  
 }

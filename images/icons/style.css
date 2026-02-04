@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-tick {
+  width: 1.25em;
+}
+
 .icon-email {
   width: 0.75em;
 }
